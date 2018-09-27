@@ -8,22 +8,39 @@
 目录结构说明：
 
 │  Brainfuck.sln                        VS解决方案配置文件
+
 │  README.md                            README
+
 │
+
 └─Brainfuck                            项目目录
+
     │  Brainfuck.vcxproj                 VS项目配置文件
+
     │  Brainfuck.vcxproj.filters         VS项目结构配置文件
+
     │  Brainfuck.vcxproj.user            VS项目配置文件
+
 	│
+
     │  interpreter.cpp                 解释器代码
+
     │  parser.cpp                       命令行参数解析代码
+
     │  main.cpp                         入口点
+
     │
+
     ├─example                          Hello, world! 例程目录
+
     │      helloworld.bf                一个例子
+
     │
+
     └─include                          用到的库/头文件
+
             declared.h                  函数声明及用到的异常类  
+
             throw_if_failed.hpp         GranDYu: THROW_IF_FAILED
 
 
