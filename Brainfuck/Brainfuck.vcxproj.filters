@@ -26,10 +26,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="throw_if_failed.hpp">
+    <ClInclude Include="include\declared.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="declared.h">
+    <ClInclude Include="include\throw_if_failed.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

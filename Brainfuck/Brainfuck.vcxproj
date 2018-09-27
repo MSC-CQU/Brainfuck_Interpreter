@@ -154,8 +154,8 @@
     <ClCompile Include="parser.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="declared.h" />
-    <ClInclude Include="throw_if_failed.hpp" />
+    <ClInclude Include="include\declared.h" />
+    <ClInclude Include="include\throw_if_failed.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

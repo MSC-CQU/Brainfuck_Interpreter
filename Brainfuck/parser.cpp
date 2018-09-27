@@ -3,9 +3,9 @@
 #include <fstream>
 #include <boost/format.hpp>
 #include <boost/program_options.hpp>
-#include "declared.h"
+#include "include/declared.h"
 #include <utility>
-#include "throw_if_failed.hpp"
+#include "include/throw_if_failed.hpp"
 #include <filesystem>
 using namespace std;
 
